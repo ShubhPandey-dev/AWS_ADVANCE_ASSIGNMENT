@@ -1,0 +1,26 @@
+{
+  "name": "document-platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.1139.0",
+    "@aws-sdk/client-cloudwatch-logs": "^3.1139.0",
+    "@aws-sdk/client-s3": "^3.1137.0",
+    "@aws-sdk/client-sns": "^3.1138.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.4.0",
+    "mysql2": "^3.24.4",
+    "uuid": "^14.0.2"
+  }
+}
