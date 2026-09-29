@@ -3,6 +3,7 @@ const dotenv = require("dotenv");
 const db = require("./src/config/dbConnect");
 const authRoutes = require('./src/routes/authRoute');
 const documentRoutes = require("./src/routes/documentRoute");
+const metricMiddleware = require('./src/middleware/metrics.middleware')
 
 dotenv.config();
 
@@ -11,6 +12,8 @@ const app = express();
 const port = process.env.SERVER_PORT || 4000;
 
 app.use(express.json());
+app.use(metricMiddleware);
+
 app.use('/api/auth', authRoutes);
 app.use("/api/documents", documentRoutes);
 
