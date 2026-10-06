@@ -372,7 +372,7 @@ Observed:
 
 ## Author
 
-**Shubh Pandey**
+**Arafat ali **
 
 Advanced Node.js + AWS Production Architecture Assignment
 # Document Processing & Monitoring Platform
@@ -474,7 +474,7 @@ DB_PASSWORD=replace-with-your-database-password
 DB_NAME=document_platform
 
 AWS_REGION=ap-south-1
-AWS_S3_BUCKET=student-document-system-shubh-2026
+AWS_S3_BUCKET=student-document-system-Ali-2026
 AWS_SNS_TOPIC_ARN=replace-with-the-topic-arn
 CLOUDWATCH_LOG_GROUP_NAME=document-system-monitoring
 
@@ -530,7 +530,7 @@ For upload, send `multipart/form-data` with a file field named `document`. The c
 
 ## AWS Setup and Deployment
 
-The handoff lists `ap-south-1`, bucket `student-document-system-shubh-2026`, SNS topic `document-notification-system`, log group `document-system-monitoring`, IAM role `EC2Role`, and launch template `document_template`. Confirm these resources in the account before using them.
+The handoff lists `ap-south-1`, bucket `student-document-system-Ali-2026`, SNS topic `document-notification-system`, log group `document-system-monitoring`, IAM role `EC2Role`, and launch template `document_template`. Confirm these resources in the account before using them.
 
 1. **Database:** Create the database and tables above. Keep the database in a private network and allow its port only from the application security group.
 2. **S3:** Enable Block Public Access and server-side encryption. Keep the bucket and its objects private. The app stores objects under a user-specific prefix.
